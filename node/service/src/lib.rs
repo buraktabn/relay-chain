@@ -659,10 +659,6 @@ where
 		Some(backoff)
 	};
 
-	let ghey: dyn ChainSpec = config.chain_spec.cloned_box();
-
-	ghey.extensions_mut().
-
 	let disable_grandpa = config.disable_grandpa;
 	let name = config.network.node_name.clone();
 
